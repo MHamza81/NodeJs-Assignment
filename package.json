@@ -4,7 +4,11 @@
   "description": "Softoo Entry Assigment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   },
   "license": "MIT"
 }
