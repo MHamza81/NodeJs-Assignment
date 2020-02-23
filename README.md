@@ -1,7 +1,20 @@
-# Problem Statement
-Will be added soon.
+# Steps
 
+First of all install dependencies the run the other commands.
 
-## Note
-Will be added soon.
+Install dependencies:
+
+```
+npm install
+```
+
+Run Tests:
+```
+npm test
+```
+
+Run script to generate CSV:
+```
+npm start
+```
 
