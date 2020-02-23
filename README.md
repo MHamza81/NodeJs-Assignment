@@ -1,6 +1,6 @@
 # Steps
 
-First of all install dependencies the run the other commands.
+First of all install dependencies then run the test command.
 
 Install dependencies:
 
