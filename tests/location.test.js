@@ -45,39 +45,3 @@ test('Should throw an error for invalid data arguments', () => {
         calculateLocationIncentive(testData2.sale, testData2.incentives)
     }).toThrow('Invalid Data.');
 });
-
-// test('Should throw an error if incentives is null', () => {
-//     expect(() => {
-//         calculateLocationIncentive(testData3.sale, testData3.incentives)
-//     }).toThrow('Invalid Data.');
-// });
-
-// test('Should throw an error if sale is not an object', () => {
-//     expect(() => {
-//         calculateLocationIncentive(testData4.sale, testData4.incentives)
-//     }).toThrow('Invalid Data.');
-// });
-
-// test('Should throw an error if incentives is not an object', () => {
-//     expect(() => {
-//         calculateLocationIncentive(testData5.sale, testData5.incentives)
-//     }).toThrow('Invalid Data.');
-// });
-
-// test('Should throw an error if sale price is not a number', () => {
-//     expect(() => {
-//         calculateLocationIncentive(testData6.sale, testData6.incentives)
-//     }).toThrow('Invalid Data.');
-// });
-
-// test('Should throw an error if sale price is a negative number', () => {
-//     expect(() => {
-//         calculateLocationIncentive(testData6.sale, testData6.incentives)
-//     }).toThrow('Invalid Data.');
-// });
-
-// test('Should throw an error if sale location is not a string', () => {
-//     expect(() => {
-//         calculateLocationIncentive(testData6.sale, testData6.incentives)
-//     }).toThrow('Invalid Data.');
-// });
